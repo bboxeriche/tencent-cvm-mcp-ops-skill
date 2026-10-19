@@ -1,0 +1,3 @@
+# SDK baseline used by mcp-server-cvm 0.1.12 and the offline tests.
+tencentcloud-sdk-python-common==3.0.1356
+tencentcloud-sdk-python-cvm==3.0.1356

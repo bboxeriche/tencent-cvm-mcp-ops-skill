@@ -1,0 +1,13 @@
+{
+  "Placement": {"Zone": "<ZONE>"},
+  "ImageId": "<IMAGE_ID>",
+  "InstanceType": "<INSTANCE_TYPE>",
+  "SystemDisk": {"DiskType": "CLOUD_PREMIUM", "DiskSize": 50},
+  "VirtualPrivateCloud": {"VpcId": "<VPC_ID>", "SubnetId": "<SUBNET_ID>"},
+  "SecurityGroupIds": ["<SECURITY_GROUP_ID>"],
+  "InstanceChargeType": "PREPAID",
+  "InstanceChargePrepaid": {"Period": 1, "RenewFlag": "NOTIFY_AND_MANUAL_RENEW"},
+  "InstanceCount": 1,
+  "InstanceName": "my-instance",
+  "ClientToken": "<UNIQUE_TOKEN_FOR_THIS_ORDER>"
+}
